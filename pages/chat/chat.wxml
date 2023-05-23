@@ -1,0 +1,22 @@
+<!--pages/chat/chat.wxml-->
+<text>pages/chat/chat.wxml</text>
+
+
+<view class="container">
+    <scroll-view class="message-container" scroll-y style="height: 550rpx">
+        <block wx:for="{{ messages }}">
+            <c-unit message="{{ item }}"></c-unit>
+        </block>
+
+
+    </scroll-view>
+
+    <view class="input-box">
+        <input placeholder="please send your message"  value="{{ inputValue }}" bindinput="handleInput"/>
+        <view class="send">
+            <view class="btn" bindtap="handleSend">send</view>
+        </view>
+    </view>
+</view>
+
+

@@ -1,0 +1,5 @@
+<view class="container">
+    <view class="time">{{ message.time }}</view>
+    <view class="content">{{ message.content }}</view>
+    <image class="image" src="{{ message.imageUrl}}" bindtap="handleImageTap"></image>
+</view>

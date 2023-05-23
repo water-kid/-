@@ -1,0 +1,4 @@
+<!--pages/waterkid/waterkid.wxml-->
+<text>pages/waterkid/waterkid.wxml</text>
+
+<button bindtap="getUserInfo">btn</button>
